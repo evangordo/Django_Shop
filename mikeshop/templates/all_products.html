@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul>
+    {% for p in products  %}
+        <div class="container4">
+        <div class="column2">
+        <li>{{ p.name }} - €{{p.price}} - {{p.description}}</li>
+         <a href="/products/{{p.id}}">
+             <img src="{{p.product_image.url}}" height="200px" width="200px" class="image2"
+
+              />
+        </a>
+    </div>
+</div>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+<!-- style="object-fit:scale-down;
+width:200px;
+height:300px;
+border: solid 1px #CCC" -->

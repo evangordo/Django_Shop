@@ -1,0 +1,324 @@
+@charset "utf-8";
+
+.values{
+  background-image: url("/static/job application1 (1).png");
+  background-size:     cover;                    
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imag1{
+  float:right;
+  display: flex;
+}
+.column2:hover {
+  background-color: whit;
+}
+.column2 {
+  /* float: left; */
+  width: 20.3%;
+  margin-bottom: 20px;
+  padding: 0 8px;
+  display: inline;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  text-align: center;
+ 
+}
+
+@media screen and (max-width: 650px) {
+  .column2 {
+    width: 100%;
+    display: block;
+  }
+}
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container4 {
+    padding: 0 16px;
+    float:left;
+   
+ 
+
+  }
+  
+  .container4::after, .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+li {
+  color: blue;
+}
+.dropbtn {
+  background-color: transparent;
+  color: blue;
+  padding: 16px;
+  font-size: 12px;
+  border: none;
+  font-family: Montserrat, sans-serif;
+}
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: #555;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+    
+.h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: blue;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+    /* background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202005/simple-kitchen-design-for-the-home-makeover-of-your-dreams/Title-Simple-Kitchen-1.jpg'); */
+  }  
+.jumbotron {
+    background-color: blue;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202005/simple-kitchen-design-for-the-home-makeover-of-your-dreams/Title-Simple-Kitchen-1.jpg');
+  }
+.container-fluid {
+    padding: 60px 50px;
+  }
+.bg-grey {
+    background-color: #f6f6f6;
+  }
+.logo-small {
+    color: blue;
+    font-size: 50px;
+  }
+.logo {
+    color: blue;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    /* color: #f4511e; */
+  }
+   
+
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    /* border: 1px solid #f4511e;  */
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    /* border: 1px solid #f4511e; */
+    background-color: #fff !important;
+    /* color: #f4511e; */
+  }
+.panel-heading {
+    color: blue;
+    /* background-color: #f4511e !important; */
+    padding: 50px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+.panel-footer {
+    background-color: black;
+    background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202005/simple-kitchen-design-for-the-home-makeover-of-your-dreams/Title-Simple-Kitchen-1.jpg');
+  }
+.panel-footer h3 {
+    font-size: 32px;
+    background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202005/simple-kitchen-design-for-the-home-makeover-of-your-dreams/Title-Simple-Kitchen-1.jpg');
+  }
+.panel-footer h4 {
+    color: blue;
+    font-size: 14px;
+    /* background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202005/simple-kitchen-design-for-the-home-makeover-of-your-dreams/Title-Simple-Kitchen-1.jpg'); */
+  }
+.panel-footer .btn {
+    margin: 15px 0;
+    /* background-color: #f4511e; */
+    color: #fff;
+    /* background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202005/simple-kitchen-design-for-the-home-makeover-of-your-dreams/Title-Simple-Kitchen-1.jpg'); */
+  }
+.navbar {
+    margin-bottom: 0;
+    /* background-color: #f4511e; */
+    background-color: transparent;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+    /* background-image: url('https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202005/simple-kitchen-design-for-the-home-makeover-of-your-dreams/Title-Simple-Kitchen-1.jpg'); */
+  }
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: blue !important;
+    background-color: #fff !important;
+  }
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* color: #f4511e; */
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+
+   @keyframes slide { 
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  
+.input-group{
+  width: 50%;
+  margin-right:auto;
+  margin-left:auto;
+  color: blue;
+
+}
+.btn-danger1{
+  color: blue;
+}
+
+.input-group-btn2{
+  color: blue;
+  float:right;
+  display: flex;
+  
+}
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.col-sm-4{
+  padding: 173px 25px;
+}
+
+
+table{
+  border: 2px solid black;
+  border-collapse:  collapse;
+  width: 50%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+th {
+  background-color: lightgrey;
+}
+
+.container4:hover{
+  transform: scale(1.5); 
+}
